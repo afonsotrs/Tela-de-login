@@ -1,0 +1,95 @@
+.signup-form{
+  width: 300px;
+  padding: 20px;
+  border-radius: 10px; 
+  background-color: rgba(255, 255, 255, 0.7); 
+  box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.2); 
+  text-align: center; 
+
+}
+
+
+body {
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  background-image: url('./imagens/ImagemDeFundo2.jpg')
+}
+
+.login-form {
+  width: 300px;
+  padding: 20px;
+  border-radius: 10px; 
+  background-color: rgba(255, 255, 255, 0.7); 
+  box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.2); 
+  text-align: center;
+}
+
+.form-group {
+  margin-bottom: 20px; 
+  position: relative;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+  color: #f9009e; 
+  font-weight: bold;
+}
+
+input {
+  width: calc(100% - 40px); 
+  padding: 10px; 
+  border: 1px solid #f9009e; 
+  border-radius: 5px;
+  color: #f9009e; 
+  position: relative; 
+}
+
+
+button {
+  width: 100%;
+  padding: 10px;
+  background-color: #f9009e;
+  color: #fff; 
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s; 
+}
+
+button:hover {
+  background-color: #dd007f; 
+}
+
+.form-error {
+  display:block;
+  font: arial;
+  font-size: small;
+  color: red;
+  margin-top: 10px; 
+}
+
+h2 {
+  color: #f9009e; 
+  text-align: center;
+}
+
+.login-link {
+  text-align: center;
+  margin-top: 15px; 
+}
+
+.login-link a {
+  color: #f9009e;
+  text-decoration: none; 
+}
+
+.login-link a:hover {
+  text-decoration: underline; 
+}
